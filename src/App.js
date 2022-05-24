@@ -1,12 +1,10 @@
 import React, { useState } from "react";
+import Rotas from "./routes";
 
-function App(props) {
-  return (
-    <>
-      <input type="text" name="usuario" id="usuario" className="userInput" />
-      <button id="pesquisar">Pesquisar</button>
-    </>
-  );
+import './style.css'
+
+function App() {
+  return <Rotas />;
 }
 
 export default App;
